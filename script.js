@@ -22,7 +22,7 @@ function decideWinner(playerSelection,computerSelection){
         if(computerSelection!='rock') result=1;
         else result=0;
     }
-
+    return result;
 }
 function game(){
     let result;
