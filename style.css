@@ -5,6 +5,7 @@
     border:solid;
     height: 100px;
     background-color: beige;
+    margin-bottom: 20px;
 }
 
 #header #text{
@@ -13,3 +14,59 @@
     font-family: 'Courier New', Courier, monospace;
     color:black
 }
+#body{
+    display:flex;
+    flex-direction: column;
+}
+#output{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-bottom: 20px;
+}
+#user,#computer{ 
+ padding:20px;   
+ border:solid ;
+ width:25%;
+ height: 300px;
+ text-align: center;
+ font-size: 30px;
+ font-weight: bold;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#results{
+    border:solid ;
+    margin-bottom: 20px;
+    align-self: center;
+    width:70%;
+    height:70px;
+    
+}
+#interface{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:solid ;
+    margin-bottom: 20px;
+    align-self: center;
+    width:60%;
+    height:180px;
+}
+#results{
+    display: flex;
+}
+#description,#score{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#score{
+    padding:10px;
+}
+#description{
+    padding:20px;
+}
+
+
